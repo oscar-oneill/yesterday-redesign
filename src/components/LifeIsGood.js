@@ -25,7 +25,7 @@ const LifeIsGood = () => {
             (audio.pause())
         }
 
-    }, [playing]);
+    }, [playing, audio]);
 
     return (
         <div className="good_container">
