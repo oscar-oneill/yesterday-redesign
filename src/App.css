@@ -1,3 +1,106 @@
-.App {
-  color: black;
+.switch-wrapper {
+    position: relative;
+}
+
+.audioplayer {
+    height: 40px;
+    width: 300px;
+    background: cornflowerblue;
+    display: flex;
+}
+
+.artist_box {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.artist_box.active {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    transition: .3s ease-in;
+    visibility: visible;
+    opacity: 1;
+    margin: 10px 0px;
+}
+
+.artist {
+    height: 60px;
+    width: auto;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.artist_image_box {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.artist_image_box img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.artist_data {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.artist_name {
+    font-family: "Programme";
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+}
+
+.artist_meta {
+    font-family: "Programme";
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 675px) {
+    .artist_box {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .artist_box.active {
+        display: inline-block;
+        flex-direction: column;
+        transition: 1s ease-in-out;
+        width: 100%;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .artist_image_box, .artist_image_box img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .artist_name {
+        font-size: 15px;
+    }
+
+    .artist_meta {
+        font-size: 13px;
+    }
 }

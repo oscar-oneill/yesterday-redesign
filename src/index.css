@@ -7,34 +7,18 @@
     font-synthesis: none;
 }
 
-@font-face {
-    font-family: "Manrope-Regular";
-    src: url("./fonts/Manrope-Regular.woff2");
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 @font-face {
-    font-family: "Manrope-Light";
-    src: url("./fonts/Manrope-Light.woff2");
+    font-family: "Programme";
+    src: url("./fonts/programme_normal.woff2");
 }
 
 @font-face {
-    font-family: "Manrope-Medium";
-    src: url("./fonts/Manrope-Medium.woff2");
-}
-
-@font-face {
-    font-family: "Manrope-Bold";
-    src: url("./fonts/Manrope-Bold.woff2");
-}
-
-@font-face {
-    font-family: "Manrope-SemiBold";
-    src: url("./fonts/Manrope-SemiBold.woff2");
-}
-
-@font-face {
-    font-family: "Manrope-ExtraBold";
-    src: url("./fonts/Manrope-ExtraBold.woff2");
+    font-family: "DM Sans";
+    src: url("./fonts/DMSans-Regular.ttf");
 }
 
 html {
@@ -43,4 +27,13 @@ html {
 
 a {
     color: inherit;
+}
+
+body {
+    background: inherit;
+    font-family: "Programme";
+}
+
+.end {
+    color: rgb(127, 255, 212);
 }

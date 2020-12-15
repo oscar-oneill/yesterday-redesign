@@ -1,12 +1,10 @@
 # Yesterday 
 
-Yesterday is a musical project written by myself with minimal musical production credits. This is the website that showcases those creations.  
+Yesterday is a musical project written by myself with some musical production credits. This is the website that showcases those creations. I use photographs taken by friends and from people of the unsplash community in to convey the feelings I experience when I created the music.  
 
 Listen here: https://yesterday.netlify.app/
 
-Home Page
-![Home Page](./images/home.png) 
-
-Song Pages
-![Life Is Good](./images/life_is_good.png)
-![Wildest Dreams](./images/wildest_dreams.png)
+NY1 (New York Minute), Pt. 2 Webpage
+![On Page Load](./images/ny1.png)  
+![Open Shelf](./images/shelf.png)  
+![Open Panel](./images/panel.png)
