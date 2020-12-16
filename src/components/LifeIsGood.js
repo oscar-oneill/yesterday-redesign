@@ -41,6 +41,7 @@ const LifeIsGood = () => {
 
             </motion.div>
 
+
             <div className={`good_title ${closet ? "active" : "inactive"}`}>
                 Life Is Good (feat<span className="end">.</span> Louey)
             </div>
