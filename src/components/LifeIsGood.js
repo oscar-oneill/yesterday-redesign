@@ -5,7 +5,6 @@ import oscar from '../media/images/artists/oscar.jpg';
 import omari from '../media/images/artists/omari.jpg';
 import louey from '../media/images/artists/louey.jpg';
 import ricky from '../media/images/artists/ricky.jpg';
-import goodMusic from '../media/music/02-life-is-good.mp3';
 
 const LifeIsGood = () => {
     document.title = "life is good (feat. louey)";
