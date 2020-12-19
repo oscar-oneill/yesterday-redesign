@@ -4,6 +4,9 @@ Yesterday is a musical project written by myself with some musical production cr
 
 Listen here: https://yesterday.netlify.app/
 
+Homepage
+![Home](./images/home.png)
+
 NY1 (New York Minute), Pt. 2 Webpage
 ![On Page Load](./images/ny1.png)  
 ![Open Shelf](./images/shelf.png)  

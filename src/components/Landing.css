@@ -1,34 +1,35 @@
-#landing_container {
-    /* background: aquamarine; */
-    background-image: url("../media/images/ricky-east-river.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    color: rgb(16, 24, 36);
+.landing_container {
+    background: rgb(0, 0, 0);
     height: 100vh;
     width: 100vw;
     display: flex;
-    position: relative;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
     top: 0px;
-    padding: 10px;
     transition: 1s ease-in-out;
 }
 
-.data {
-    height: 100%;
+video {
+    object-fit: cover;
     width: 100%;
-    font-family: "Manrope-Bold";
-    display: flex;
-    align-items: center;
+    height: 100%;
+    outline: none;
+    border: none;
 }
 
-.data p {
-    text-transform: uppercase;
-    font-size: 90px;
-    line-height: 1.1;
+.start_button {
+    position: absolute;
+    font-size: 50px;
+    z-index: 1;
+    text-transform: lowercase;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    letter-spacing: -.7px;
+    transition: .4s ease-in-out;
 }
 
-.data p span {
-    color: white;
+.start_button:hover {
+    color: rgb(127, 255, 212);
+    transition: .4s ease-in-out;
 }
