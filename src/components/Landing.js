@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../components/Landing.css';
 
 const Landing = () => {
@@ -13,7 +14,7 @@ const Landing = () => {
             </video>
 
             <div className="start_button">
-                <a href="/wake-up">start</a>
+                <Link to="/wake-up">start</Link>
             </div>
         </div>
     )

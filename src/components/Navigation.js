@@ -46,7 +46,7 @@ const Navigation = () => {
                                 <div className="track_circle">03</div>
                                 <div className="track_data">
                                     <div className="track_name">Waves</div>
-                                    <div className="track_meta"><em>audio unavailable</em></div>
+                                    <div className="track_meta"><span className="isAvailable">audio unavailable</span></div>
                                 </div>
                             </motion.div>
                         </Link>
@@ -57,7 +57,7 @@ const Navigation = () => {
                                 <div className="track_circle">04</div>
                                 <div className="track_data">
                                     <div className="track_name">Surf</div>
-                                    <div className="track_meta"><em>audio unavailable</em></div>
+                                    <div className="track_meta"><span className="isAvailable">audio unavailable</span></div>
                                 </div>
                             </motion.div>
                         </Link>
@@ -68,7 +68,7 @@ const Navigation = () => {
                                 <div className="track_circle">05</div>
                                 <div className="track_data">
                                     <div className="track_name">NY1 (New York Minute), Pt. 2</div>
-                                    <div className="track_meta"><em>preview only</em></div>
+                                    <div className="track_meta"><span className="isAvailable">preview only</span></div>
                                 </div>
                             </motion.div>
                         </Link>
@@ -79,7 +79,7 @@ const Navigation = () => {
                                 <div className="track_circle">06</div>
                                 <div className="track_data">
                                     <div className="track_name">Wildest Dreams</div>
-                                    <div className="track_meta">feat. Melayna  <em>preview only</em></div>
+                                    <div className="track_meta">feat. Melayna - <span className="isAvailable">preview only</span></div>
                                 </div>
                             </motion.div>
                         </Link>
@@ -90,7 +90,7 @@ const Navigation = () => {
                                 <div className="track_circle">07</div>
                                 <div className="track_data">
                                     <div className="track_name">Twilight Zone</div>
-                                    <div className="track_meta"><em>audio unavailable</em></div>
+                                    <div className="track_meta"><span className="isAvailable">audio unavailable</span></div>
                                 </div>
                             </motion.div>
                         </Link>
@@ -101,7 +101,7 @@ const Navigation = () => {
                                 <div className="track_circle">08</div>
                                 <div className="track_data">
                                     <div className="track_name">Dawn</div>
-                                    <div className="track_meta"><em>preview only</em></div>
+                                    <div className="track_meta"><span className="isAvailable">preview only</span></div>
                                 </div>
                             </motion.div>
                         </Link>
