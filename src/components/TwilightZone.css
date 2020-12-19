@@ -153,6 +153,7 @@
     visibility: hidden;
     opacity: 0;
     font-size: 15px;
+    text-transform: lowercase;
 }
 
 .lyric_text.active {

@@ -35,10 +35,34 @@
     transition: .3s ease-in-out;
 }
 
-#play {
-    color: rgb(127, 255, 212);
-    font-size: 75px;
+.play_icon {
+    width: 80px;
+    height: 80px;
     margin-left: 5px;
+    transition: .3s ease-in-out;
+}
+
+.play_icon path {
+    fill: rgb(127, 255, 212);
+}
+
+.pause_icon {
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+.pause_icon path {
+    fill: rgb(127, 255, 212);
+}
+
+.play_icon.active {
+    display: none;
+}
+
+.pause_icon.active {
+    display: flex;
+    transition: .3s ease-in-out;
 }
 
 /* Title */
@@ -153,6 +177,7 @@
     visibility: hidden;
     opacity: 0;
     font-size: 15px;
+    text-transform: lowercase;
 }
 
 .lyric_text.active {

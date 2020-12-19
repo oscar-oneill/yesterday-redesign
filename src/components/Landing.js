@@ -8,7 +8,7 @@ const Landing = () => {
 
     return (
         <div className="landing_container">
-            <video autoPlay preload autoBuffer loop muted>
+            <video autoPlay preload="true" loop muted playsInline>
                 <source src={yesterday} type="video/mp4"/>
             </video>
 

@@ -176,6 +176,7 @@
     visibility: hidden;
     opacity: 0;
     font-size: 15px;
+    text-transform: lowercase;
 }
 
 .lyric_text.active {
@@ -184,6 +185,10 @@
     visibility: visible;
     opacity: 1;
     padding: 10px;
+}
+
+audio {
+    z-index: 1;
 }
 
 @media screen and (max-width: 768px) {

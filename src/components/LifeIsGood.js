@@ -1,33 +1,51 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import '../components/LifeIsGood.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import omari from '../media/images/artists/omari.jpg';
 import louey from '../media/images/artists/louey.jpg';
 import ricky from '../media/images/artists/ricky.jpg';
+import goodMusic from '../media/music/02-life-is-good.mp3';
 
 const LifeIsGood = () => {
     document.title = "life is good (feat. louey)";
+
+    const path = window.location.pathname;
 
     const closetRef = useRef(null);
     const [closet, setCloset] = useState(false);
     const tuneCloset = () => setCloset(!closet);
 
+    const [audio] = useState(new Audio(goodMusic));
+    const [playing, setPlaying] = useState(false);
+    const toggle = () => setPlaying(!playing);
+
+    useEffect(() => {
+        if (playing) {
+            (audio.play())
+        } else {
+            (audio.pause())
+        }
+
+    }, [playing, audio]);
+
+    useEffect(() => {
+        if (playing && path !== "/life-is-good") {
+           (audio.pause()) && (audio.currentTime = 0)     
+        }
+    });
+
     return (
         <div className="good_container">
             <motion.div className={`play_container ${closet ? "active" : "inactive"}`} whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
 
-                <svg xmlns='http://www.w3.org/2000/svg' class='ionicon' className="play_icon"  viewBox='0 0 512 512'><title>Play</title>
-                    <path d='M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'/>
+                <svg xmlns='http://www.w3.org/2000/svg' class='ionicon'className={`play_icon ${playing ? "active" : "inactive"}`} onTouchStart={toggle} onClick={toggle} viewBox='0 0 512 512'><title>Play</title>
+                    <path d='M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16z' fill='none' stroke='currentColor' strokeMiterlimit='10' strokeWidth='32'/>
                 </svg>   
 
-                {/* <svg xmlns='http://www.w3.org/2000/svg' class='ionicon' className={`pause_icon ${playing ? "active" : "inactive"}`} viewBox='0 0 512 512'><title>Pause</title>
-                    <path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M208 432h-48a16 16 0 01-16-16V96a16 16 0 0116-16h48a16 16 0 0116 16v320a16 16 0 01-16 16zM352 432h-48a16 16 0 01-16-16V96a16 16 0 0116-16h48a16 16 0 0116 16v320a16 16 0 01-16 16z'/>
+                <svg xmlns='http://www.w3.org/2000/svg' class='ionicon' className={`pause_icon ${playing ? "active" : "inactive"}`} onTouchStart={toggle} onClick={toggle} viewBox='0 0 512 512'><title>Pause</title>
+                    <path fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='32' d='M208 432h-48a16 16 0 01-16-16V96a16 16 0 0116-16h48a16 16 0 0116 16v320a16 16 0 01-16 16zM352 432h-48a16 16 0 01-16-16V96a16 16 0 0116-16h48a16 16 0 0116 16v320a16 16 0 01-16 16z'/>
                 </svg> 
-                
-                className={`play_icon ${playing ? "active" : "inactive"}`} onClick={toggle}
-
-                */}
 
             </motion.div>
 
