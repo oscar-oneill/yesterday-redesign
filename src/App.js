@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 import Landing from './components/Landing';
 import Navigation from './components/Navigation';
@@ -14,9 +14,8 @@ import Waves from './components/Waves';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
-          <Router>
             <Navigation/>
             <AnimatedSwitch
                 atEnter={{ opacity: 0 }}  
@@ -26,7 +25,7 @@ function App() {
             >
               <Switch>
                 <Route path="/" exact component={Landing}/>
-                <Route path="/wake-up" exact component={Wake}/>
+                <Route path="/wake-up" component={Wake}/>
                 <Route path="/life-is-good" component={LifeIsGood}/>
                 <Route path="/surf" component={Surf}/>
                 <Route path="/waves" component={Waves}/>
@@ -36,9 +35,8 @@ function App() {
                 <Route path="/dawn" component={Dawn}/>
               </Switch>
             </AnimatedSwitch>
-          </Router>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
