@@ -5,7 +5,7 @@ import '../styles/Landing.css';
 const Landing = () => {
     document.title = "yesterday";
 
-    const yesterday = "https://yesterday-album.s3.amazonaws.com/yesterday.mp4";
+    const yesterday = "https://icecube-us-842.icedrive.io/download?p=zkq74NeXDSvtiXWWZoUqOhE8en490q%2FRKEF1NA%2BM3hRTmQEAZGCsimYQQ2oW5wk584Mesi1YmaqPkKVFBtRFCuAOtkFQyOm4trzMGnVvsCmXlyzzti4zknhSyuR1l4HnwTpkILELlwJGV7CmDQe9P%2BlV9y%2Fmh8EoFrdgFSBtj3bLSrI8ghzkONPEPuewo0HMWRVjqCBO9XoGf9EmZY%2FnkA%3D%3D";
 
     return (
         <div className="landing_container">
