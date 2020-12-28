@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import { motion } from 'framer-motion';
-import '../components/Surf.css';
+import '../styles/Surf.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import zeros from '../media/images/artists/zeros.jpg';
 import ricky from '../media/images/artists/ricky.jpg';

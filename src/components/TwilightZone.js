@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import '../components/TwilightZone.css';
+import '../styles/TwilightZone.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import taebeast from '../media/images/artists/taebeast.jpg';
 import ruddy from '../media/images/artists/ruddy.jpg';

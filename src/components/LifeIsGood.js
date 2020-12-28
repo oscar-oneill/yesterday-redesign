@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import '../components/LifeIsGood.css';
+import '../styles/LifeIsGood.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import omari from '../media/images/artists/omari.jpg';
 import louey from '../media/images/artists/louey.jpg';

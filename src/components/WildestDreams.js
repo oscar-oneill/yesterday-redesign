@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import '../components/WildestDreams.css';
+import '../styles/WildestDreams.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import taebeast from '../media/images/artists/taebeast.jpg';
 import melayna from '../media/images/artists/melayna.jpg';

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import '../components/Wake.css';
+import '../styles/Wake.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import tj from '../media/images/artists/tj.jpg';
 import billy from '../media/images/artists/billy.jpg';

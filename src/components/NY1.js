@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import '../components/NY1.css';
+import '../styles/NY1.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import charlie from '../media/images/artists/charlie.jpg';
 import newMusic from '../media/music/05-NY1 (New York Minute), Pt. 2 (Preview).mp3';

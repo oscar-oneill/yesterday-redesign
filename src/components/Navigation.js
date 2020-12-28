@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import '../components/Navigation.css';
+import '../styles/Navigation.css';
 
 
 const Navigation = () => {

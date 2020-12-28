@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import '../components/Dawn.css';
+import '../styles/Dawn.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import simon from '../media/images/artists/simon.jpg';
 import dawnMusic from '../media/music/08-dawn-outerlude.mp3';

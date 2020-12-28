@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import { motion } from 'framer-motion';
-import '../components/Waves.css';
+import '../styles/Waves.css';
 import oscar from '../media/images/artists/oscar.jpg';
 import quentin from '../media/images/artists/quentin.jpg';
 import nicki from '../media/images/artists/nicki.jpg';

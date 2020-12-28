@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../components/Landing.css';
+import '../styles/Landing.css';
 
 const Landing = () => {
     document.title = "yesterday";
