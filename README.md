@@ -9,5 +9,4 @@ Homepage
 
 NY1 (New York Minute), Pt. 2 Webpage
 ![On Page Load](./images/ny1.png)  
-![Open Shelf](./images/shelf.png)  
 ![Open Panel](./images/panel.png)

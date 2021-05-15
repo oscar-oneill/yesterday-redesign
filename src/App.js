@@ -1,16 +1,16 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
-import Landing from './components/Landing';
+import Landing from './routes/Landing';
 import Navigation from './components/Navigation';
-import Wake from './components/Wake';
-import LifeIsGood from './components/LifeIsGood';
-import Surf from './components/Surf';
-import NY1 from './components/NY1';
-import WildestDreams from './components/WildestDreams';
-import TwilightZone from './components/TwilightZone';
-import Dawn from './components/Dawn';
-import Waves from './components/Waves';
+import Wake from './routes/Wake';
+import LifeIsGood from './routes/LifeIsGood';
+import Surf from './routes/Surf';
+import NY1 from './routes/NY1';
+import WildestDreams from './routes/WildestDreams';
+import TwilightZone from './routes/TwilightZone';
+import Dawn from './routes/Dawn';
+import Waves from './routes/Waves';
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
       <div className="App">
             <Navigation/>
             <AnimatedSwitch
-                atEnter={{ opacity: 0 }}  
-                atLeave={{ opacity: 0 }}
+                atEnter={{ opacity: 1 }}  
+                atLeave={{ opacity: 1 }}
                 atActive={{ opacity: 1 }}   
                 className="switch-wrapper"   
             >

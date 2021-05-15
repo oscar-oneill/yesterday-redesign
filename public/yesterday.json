@@ -1,0 +1,218 @@
+[
+    {
+        "song_id": 0,
+        "song_title": "Wake Up!",
+        "solo": true,
+        "track_number": 1,
+        "lyrics": true,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "The Operator",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Ftj.jpg?alt=media&token=7166a798-35c1-4202-b67a-81cf4198769e",
+                "role": "Producer"
+            },
+            {
+                "artist": "Charlie Read",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fcharlie.jpg?alt=media&token=50a26bb3-8220-4785-a419-da192c5e1c99",
+                "role": "Photographer"
+            }
+        ]
+    },
+    {
+        "song_id": 1,
+        "song_title": "Life Is Good",
+        "solo": false,
+        "track_number": 2,
+        "lyrics": true,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "Louey",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Flouey.jpg?alt=media&token=a3d9e4dc-bd4d-4427-9e4c-c004bbc1c63b",
+                "role": "Guest Appearance"
+            },
+            {
+                "artist": "Omari T.",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fomari.jpg?alt=media&token=cae612f1-af53-4def-ab17-5f68e454e47d",
+                "role": "Producer"
+            },
+            {
+                "artist": "Maxwell Schiano",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fmaxwell_s.jpg?alt=media&token=92215451-3ba2-42d2-b060-0511249b309c",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 2,
+        "song_title": "Waves",
+        "solo": true,
+        "track_number": 3,
+        "lyrics": true,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "Quentin Shemwell",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fquentin.jpg?alt=media&token=a32ab5d6-67e2-4460-9208-1fa17d33e364",
+                "role": "Producer"
+            },
+            {
+                "artist": "Nicki Manchisi",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fnicki.jpg?alt=media&token=9bd41205-ae1e-4a7d-a6ba-4656ded329e2",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 3,
+        "song_title": "Surf",
+        "solo": true,
+        "track_number": 4,
+        "lyrics": false,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "zerosand1nes",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fzeros.jpg?alt=media&token=9b2a82f4-3bc6-46ad-ada1-71d246ad6f16",
+                "role": "Producer"
+            },
+            {
+                "artist": "Oldnewyorker",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fricky.jpg?alt=media&token=82fb0a85-6dab-4979-b4c0-3f8908702d09",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 4,
+        "song_title": "NY1 (New York Minute), Pt. 2",
+        "solo": true,
+        "track_number": 5,
+        "lyrics": true,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist & Producer"
+            },
+            {
+                "artist": "Ivana Cajina",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2FIvana%20Cajina.jpeg?alt=media&token=560a22c3-e78c-48a6-996c-2f96de8a01a9",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 5,
+        "song_title": "Wildest Dreams",
+        "solo": false,
+        "track_number": 6,
+        "lyrics": true,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "Melayna",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fmelayna.jpg?alt=media&token=e5c013ea-7968-47bc-aff5-865943cb20f2",
+                "role": "Guest Appearance"
+            },
+            {
+                "artist": "Tae Beast",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Ftaebeast.jpg?alt=media&token=01cf0351-c7bc-411f-abf1-2b5e4e1c4922",
+                "role": "Producer"
+            },
+            {
+                "artist": "Jake Pierrelee",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fjake.jpg?alt=media&token=5f39eec4-d095-468a-92d8-37b5cbc6958f",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 6,
+        "song_title": "Twilight Zone",
+        "solo": true,
+        "track_number": 7,
+        "lyrics": false,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist"
+            },
+            {
+                "artist": "Tae Beast",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Ftaebeast.jpg?alt=media&token=01cf0351-c7bc-411f-abf1-2b5e4e1c4922",
+                "role": "Producer"
+            },
+            {
+                "artist": "ruddy.media",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fruddy.jpg?alt=media&token=cba7ee20-3594-4921-958a-8a7d139267f3",
+                "role": "Photographer"
+            }
+        ]
+    },  
+    {
+        "song_id": 7,
+        "song_title": "Dawn",
+        "solo": true,
+        "track_number": 8,
+        "lyrics": false,
+        "personnel": [
+            {
+                "artist": "Oscar",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Foscar.jpg?alt=media&token=d2386eac-8938-4172-bb3e-22066714e30b",
+                "role": "Artist & Producer"
+            },
+            {
+                "artist": "Simon Shim",
+                "social_media_url": null,
+                "image_url": "https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Favatars%2Fsimon.jpg?alt=media&token=68e9faa1-3316-483e-82f9-b28fd648971e",
+                "role": "Photographer"
+            }
+        ]
+    }
+]
