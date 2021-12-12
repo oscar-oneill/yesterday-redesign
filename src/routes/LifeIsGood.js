@@ -6,7 +6,7 @@ import Song from '../components/Song';
 
 const LifeIsGood = () => {
     document.title = "life is good (feat. louey)";
-    const background = "url(https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Fbackground%2FMaxwell%20Schiano%20-%20Coney%20Island.jpeg?alt=media&token=47ab31d0-ed30-4945-86b1-d01674d3b28c)";
+    const background = "url(https://res.cloudinary.com/oscarone/image/upload/v1639332269/Yesterday/Background%20Images/Maxwell_Schiano_-_Coney_Island_kyy2b7.jpg)";
 
     return (
         <>

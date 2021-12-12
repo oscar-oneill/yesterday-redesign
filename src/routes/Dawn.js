@@ -5,7 +5,7 @@ import dawn from '../media/music/08-dawn-outerlude.mp3';
 
 const Dawn = () => {
     document.title = "dawn";
-    const background = "url(https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Fbackground%2Fsimon-shim-LX7f4K8t9o4-unsplash.jpg?alt=media&token=3310b46a-82d7-4e73-a6db-74072016c0d3)";
+    const background = "url(https://res.cloudinary.com/oscarone/image/upload/v1639332274/Yesterday/Background%20Images/simon-shim-559416-unsplash_ppqdt4.jpg)";
 
     return (
         <>

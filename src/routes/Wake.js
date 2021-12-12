@@ -6,7 +6,7 @@ import lyricsText from '../lyrics/wakeUp.txt';
 
 const Wake = () => {
     document.title = "wake up!";
-    const background = "linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url(https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Fbackground%2Fcharlie-read-cUkMVstHYTw-unsplash.jpg?alt=media&token=b9bc4605-8576-4b9f-b661-ad82afea3c3d)";
+    const background = "linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/oscarone/image/upload/v1639332270/Yesterday/Background%20Images/charlie-read-cUkMVstHYTw-unsplash-2_kttyoy.jpg)";
 
     return (
         <>

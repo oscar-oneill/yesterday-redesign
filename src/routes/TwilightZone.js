@@ -4,7 +4,7 @@ import Song from '../components/Song';
 
 const TwilightZone = () => {
     document.title = "twilight zone";
-    const background = "url(https://firebasestorage.googleapis.com/v0/b/yesterday-data.appspot.com/o/images%2Fbackground%2Fruddy-media-Hqafza8h7kw-unsplash.jpg?alt=media&token=b8a1f465-b806-4027-b049-c881379977e1)";
+    const background = "url(https://res.cloudinary.com/oscarone/image/upload/v1639332274/Yesterday/Background%20Images/ruddy-media-Hqafza8h7kw-unsplash-2_vga6cc.jpg)";
 
     return (
         <>
